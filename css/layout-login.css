@@ -103,37 +103,40 @@ main h1 {
 
 .red-btn {
     border: none;
-    padding: 5px 20px;
+    background-color: transparent;
     border-radius: 4px;
     color: rgb(207, 29, 29);
 }
 
 .red-btn:hover {
     color: rgb(177, 39, 39);
+    background-color: #ccc;
     transition: 1s;
 }
 
 .blue-btn {
     border: none;
-    padding: 5px 10px;
+    background-color: transparent;
     border-radius: 4px;
     color: rgb(65, 65, 173);
 }
 
 .blue-btn:hover{
     color: rgb(58, 58, 145);
+    background-color: #ccc;
     transition: 1s;
 }
 
 .green-btn {
     border: none;
-    padding: 10px 10px;
+    background-color: transparent;
     border-radius: 4px;
     color: rgb(14, 165, 14);
 }
 
 .green-btn:hover{
     color: rgb(19, 155, 19);
+    background-color: #ccc;
     transition: 1s;
 }
 
@@ -144,5 +147,9 @@ main h1 {
 
 .red-input:hover {
     border-color: rgb(168, 43, 43);
+}
+
+i {
+    padding-top: 5px;
 }
 
