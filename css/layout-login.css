@@ -1,0 +1,148 @@
+.menu {
+    background-color: rgb(255, 166, 0);
+    height: 70px;
+    margin: 0;
+    color: #fff;
+    display: flex;
+}
+
+main h1 {
+    padding: 10px;
+}
+
+.logout {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(255, 166, 0);
+    color: #fff;
+    position: absolute;
+    margin: 0;
+    right: 15px;
+    top: 10px;
+}
+
+.home {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    transition: 1s;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.checkNotes {
+    position: absolute;
+    top: 20px;
+    left: 85px;
+    transition: 1s;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.logout {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    transition: 1s;
+}
+
+.home:hover, .logout:hover, .checkNotes:hover {
+    color: rgba(36, 36, 36, 0.616);
+    transition: 1s;
+}
+
+.col {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.input{
+    max-width: 400px;
+    border: solid 1px #ccc;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+
+.input:hover {
+    border-color: orange;
+    transition: 1s;
+}
+
+.inputSize {
+    width: 500px;
+    margin: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    background-color: rgb(255, 166, 0);
+    color: white;
+    font-weight: 600;
+    border: 1px solid rgb(212, 142, 10);
+}
+
+.btn:hover {
+    background-color: rgb(235, 155, 8);
+    color: white;
+    transition: 1s;
+}
+
+
+.red-btn {
+    border: none;
+    padding: 5px 20px;
+    border-radius: 4px;
+    color: rgb(207, 29, 29);
+}
+
+.red-btn:hover {
+    color: rgb(177, 39, 39);
+    transition: 1s;
+}
+
+.blue-btn {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: rgb(65, 65, 173);
+}
+
+.blue-btn:hover{
+    color: rgb(58, 58, 145);
+    transition: 1s;
+}
+
+.green-btn {
+    border: none;
+    padding: 10px 10px;
+    border-radius: 4px;
+    color: rgb(14, 165, 14);
+}
+
+.green-btn:hover{
+    color: rgb(19, 155, 19);
+    transition: 1s;
+}
+
+
+.red-input {
+    border-color: rgb(168, 43, 43);
+}
+
+.red-input:hover {
+    border-color: rgb(168, 43, 43);
+}
+
