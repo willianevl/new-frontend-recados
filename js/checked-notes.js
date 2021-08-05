@@ -21,7 +21,8 @@ async function ShowCheckedNotes() {
             <td>${i}</td>
             <td>${note.title}</td>
             <td>${note.description}</td>
-            <td>${Date(note.date)}</td>
+            <td title= "${moment(note.date).fromNow()}">
+            ${moment(note.date).format('YYYY/MM/DD HH:mm:ss')}</td>
         </tr>
         `
         i++
@@ -37,6 +38,4 @@ function Logout(){
 document.getElementById('homePage').addEventListener('click', () => {
     OpenURL('notes.html');
 });
-
-
 
